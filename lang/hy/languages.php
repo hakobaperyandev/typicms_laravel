@@ -5,6 +5,6 @@ return [
     'es' => 'Spanish',
     'nl' => 'Dutch',
     'en' => 'English',
-    'hy' => 'ARM',
-    'ru' => 'RUS'
+    'ru' => 'русский',
+    'hy' => 'Հայերեն',
 ];

@@ -35,7 +35,7 @@ return [
         'en' => 'en_US',
         // 'fr' => 'fr_FR',
         // 'nl' => 'nl_NL',
-        'hy' => 'hy_REAL',
+        'hy' => 'hy_HY',
         'ru' => 'ru_RU',
     ],
 
