@@ -33,8 +33,10 @@ return [
     */
     'locales' => [
         'en' => 'en_US',
-        'fr' => 'fr_FR',
-        'nl' => 'nl_NL',
+        // 'fr' => 'fr_FR',
+        // 'nl' => 'nl_NL',
+        'hy' => 'hy_REAL',
+        'ru' => 'ru_RU',
     ],
 
     /*
