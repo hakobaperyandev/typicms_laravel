@@ -11,7 +11,50 @@ export default defineConfig({
     },
     plugins: [
         laravel({
-            input: ['resources/scss/public.scss', 'resources/scss/admin.scss', 'resources/js/public.js', 'resources/js/admin.js'],
+            input: [
+                'resources/scss/public.scss', 
+                'resources/scss/admin.scss',
+                'resources/scss/home/index.scss',
+                'resources/css/home/index-l.css',
+                'resources/scss/home/index-m.scss',
+
+                'resources/scss/about/index.scss',
+                'resources/css/about/index-l.css',
+                'resources/scss/about/index-m.scss',
+
+                'resources/scss/contact/index.scss',
+                'resources/css/contact/index-l.css',
+                'resources/scss/contact/index-m.scss',
+
+                'resources/scss/error/index.scss',
+                'resources/css/error/index-l.css',
+                'resources/scss/error/index-m.scss',
+
+                'resources/scss/news/index.scss',
+                'resources/css/news/index-l.css',
+                'resources/scss/news/index-m.scss',
+
+                'resources/scss/services/index.scss',
+                'resources/css/services/index-l.css',
+                'resources/scss/services/index-m.scss',
+
+                'resources/scss/team/index.scss',
+                'resources/css/team/index-l.css',
+                'resources/scss/team/index-m.scss',
+
+
+                'resources/css/swiper.min.css',
+                'resources/js/public.js', 
+                'resources/js/admin.js',
+                'resources/js/about.js',
+                'resources/js/attach.js',
+                'resources/js/contact.js',
+                'resources/js/index.js',
+                'resources/js/main.js',
+                'resources/js/services.js',
+                'resources/js/swiper.min.js',
+                'resources/js/team.js',
+            ],
             refresh: true,
         }),
         vue({
